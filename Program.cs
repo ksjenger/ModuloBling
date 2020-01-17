@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ModuloBling
+namespace ModuloBling.View
 {
     static class Program
     {
@@ -14,9 +14,11 @@ namespace ModuloBling
         [STAThread]
         static void Main()
         {
+            string nome = string.Empty;
+            string senha = string.Empty;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Principal(nome, senha));
         }
     }
 }

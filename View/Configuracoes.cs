@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ModuloBling
+namespace ModuloBling.View
 {
-    public partial class Form1 : Form
+    public partial class Configuracoes : Form
     {
-        public Form1()
+        public Configuracoes()
         {
             InitializeComponent();
         }

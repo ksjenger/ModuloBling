@@ -1,7 +1,12 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ModuloBling.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="VIPP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://vipp.visualset.com.br</Value>
+    </Setting>
+    <Setting Name="WSVippPostarObj" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://vpsrv.visualset.com.br/PostagemVipp.asmx</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
